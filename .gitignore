@@ -1,0 +1,42 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go build folders
+bin/
+dist/
+build/
+
+# Go workspace
+go.work.sum
+
+# Dependency/vendor (optional)
+vendor/
+
+# Environment files
+.env
+.env.local
+
+# Logs
+*.log
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Coverage reports
+coverage.out
+*.coverprofile
+
+# Temporary files
+tmp/
+temp/
